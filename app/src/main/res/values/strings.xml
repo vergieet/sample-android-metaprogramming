@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Sample Metaprogramming</string>
+    <string name="title_activity_basic">BasicActivity</string>
+    <string name="action_settings">Settings</string>
+</resources>
