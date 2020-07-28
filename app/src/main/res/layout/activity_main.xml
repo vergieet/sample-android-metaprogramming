@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".BasicActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -23,27 +23,20 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button_employees"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
-            android:text="Using Model" />
+            android:text="Employees" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/button_departments"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
-            android:text="Using Endpoint Generated" />
+            android:text="Departments" />
 
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
-            android:text="Using Endpoint" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

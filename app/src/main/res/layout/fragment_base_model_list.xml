@@ -9,5 +9,5 @@
     android:layout_marginLeft="16dp"
     android:layout_marginRight="16dp"
     app:layoutManager="LinearLayoutManager"
-    tools:context=".UseModelFragment"
-    tools:listitem="@layout/fragment_use_model" />
+    tools:context=".fragments.BaseFragment"
+    tools:listitem="@layout/fragment_base_model" />
